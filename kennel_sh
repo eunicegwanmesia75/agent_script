@@ -1,0 +1,9 @@
+#!/bin/bash
+
+if [[ ${uid} -ne 0 ]]
+echo "you need root access}
+exit 1
+fi
+lscpu
+lsblk
+uname -r
