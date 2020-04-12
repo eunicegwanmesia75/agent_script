@@ -12,3 +12,7 @@ free -m
 cat /proc/meminfo
 cat /proc/cpuinfo
 lsb_release -a
+nproc
+cat /etc/os-release
+sar -u
+
